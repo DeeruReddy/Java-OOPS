@@ -1,0 +1,23 @@
+Binary Search:
+
+	- Sorted Array
+	- Finding the mid value
+	- Large Dataset
+
+
+Int a[] = {10,20, 30, 40, 50}
+		
+	int lb = 0;	
+	int up = a.length-1;
+	
+	mid = (lb+up)/2  --> for smaller datasets
+
+	mid = lb + (up-lb)/2 --> for large datasets
+
+
+Linear Search:
+	- Unsorted array
+	- No need to find the mid value
+	- Small Dataset
+
+Int a[] = {40, 10, 20, 18, 50}
