@@ -1,0 +1,44 @@
+OOPS
+
+BankAccount -- class name
+
+	- Savings Account 
+
+	- Account Holder Name
+	- Balance
+
+	- Deposit
+	- Withdraw
+	- Display Details
+
+
+deposit:
+
+	
+	if(amount>0) {
+System.out.println() 
+}
+
+else {
+System.out.println()
+}
+
+if(amount>0 && amount<=balance) {
+
+}
+
+
+
+
+What is constructor? 
+--> Constructor is used to initialise the objects
+--> "this" keyword -- referred to the current object
+--> "super" keyword -- it is parent class
+--> subclass -- it is child class
+--> @override -- overriding the parent method
+
+
+
+
+
+What is oops? 
