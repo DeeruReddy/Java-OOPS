@@ -1,0 +1,69 @@
+Sorting:
+
+1. Buble sort - It will check with adjacent elements and swap it
+	
+	Two pointer - i , j
+
+		      k
+
+	int [] a = {25, 10, 30, 34, 5}
+
+	i - outer loop
+
+	j - inner loop
+
+		25 10 30 34 5
+
+		0   1   2   3   4
+
+		j  j+1
+
+	if(a[j] > a[j+1])
+ 
+	a.length
+	a.length - 1
+
+	a = 10, b = 20;
+
+		b = a;  b= 10;
+		a = b;  a = 10;
+
+	a = 10, b = 20;
+
+		a = temp; // a = 10;
+		a = b;  a = 20; 
+		b = temp;  b = 10;
+
+
+	j<a.length-1. // need to check the last element
+	j<5-1
+	j<4
+
+		25  10  30  34  5
+		
+		10  25  30  34  5
+
+		10  25  30  34  5
+
+		10  25  30  34  5
+
+		10  25  30  5  34
+
+====================================================================================
+
+2. Selection sort - It will check for minimum element and swap it
+
+				  - int minimumIndex = i; 
+
+		10	20	2	8	9	1
+
+		1	20	2	8	9	10
+
+			int temp = 
+
+	for(int i = 0; i<a.length-1; i++){
+
+		for(int j = 0; j<a.length; j++){
+			System.out.print(a[j]);
+		}
+	}
